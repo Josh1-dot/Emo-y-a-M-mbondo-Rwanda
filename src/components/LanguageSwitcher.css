@@ -1,0 +1,113 @@
+.language-switcher {
+  margin-left: 15px;
+}
+
+.language-switcher .dropdown-toggle {
+  border-radius: 20px;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.language-switcher .dropdown-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(243, 156, 18, 0.3);
+}
+
+.language-switcher .flag {
+  font-size: 1.2rem;
+}
+
+.language-switcher .lang-name {
+  font-size: 0.9rem;
+}
+
+.language-switcher .dropdown-menu {
+  background-color: #16213e;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  min-width: 180px;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.language-switcher.dropdown:hover .dropdown-menu,
+.language-switcher:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+}
+
+.language-switcher .dropdown-item {
+  color: #ecf0f1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.language-switcher .dropdown-item:hover {
+  background-color: #f39c12;
+  color: #1a1a2e;
+}
+
+.language-switcher .dropdown-item.active {
+  background-color: #f39c12;
+  color: #1a1a2e;
+  font-weight: 600;
+}
+
+@media (max-width: 991px) {
+  .language-switcher {
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .language-switcher .dropdown-toggle {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  
+  .language-switcher .dropdown-menu {
+    width: 100%;
+    position: static !important;
+    transform: none !important;
+  }
+  
+  .language-switcher .dropdown-item {
+    padding: 12px 20px;
+    font-size: 1rem;
+    justify-content: center;
+  }
+  
+  .language-switcher .flag {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .language-switcher .dropdown-toggle {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+  
+  .language-switcher .flag {
+    font-size: 1.1rem;
+  }
+  
+  .language-switcher .lang-name {
+    font-size: 0.85rem;
+  }
+  
+  .language-switcher .dropdown-item {
+    padding: 10px 15px;
+    font-size: 0.95rem;
+  }
+}

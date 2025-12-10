@@ -19,7 +19,7 @@ function NavigationBar() {
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top" expanded={expanded} className="custom-navbar">
       <Container>
         <Navbar.Brand onClick={() => handleNavClick('/')} style={{ cursor: 'pointer' }} className="brand-logo">
-          <span className="brand-text">BABEMBE</span>
+          <span className="brand-text">EMO Y'A M'MBONDO Rwanda</span>
           <span className="brand-subtitle">Community</span>
         </Navbar.Brand>
         <Navbar.Toggle 

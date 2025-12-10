@@ -11,8 +11,8 @@ function Cheria() {
       <Container>
         <div className="empty-content">
           <h1>{t('cheria')}</h1>
-          <p className="empty-message">Cette page est encore vide...</p>
-          <p className="empty-submessage">Le contenu sera ajouté bientôt.</p>
+          <p className="empty-message">{t('emptyMessage')}</p>
+          <p className="empty-submessage">{t('comingSoon')}</p>
         </div>
       </Container>
     </div>

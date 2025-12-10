@@ -61,7 +61,17 @@ const resources = {
       aboutDesc: "Site de la communauté Babembe de Kigali. Préservons notre culture et restons connectés.",
       quickLinks: "Liens Rapides",
       contactInfo: "Contact",
-      copyright: "Communauté Babembe Kigali. Tous droits réservés."
+      copyright: "Communauté Babembe Kigali. Tous droits réservés.",
+      
+      // Empty Pages
+      emptyMessage: "Cette page est encore vide...",
+      comingSoon: "Le contenu sera ajouté bientôt.",
+      
+      // Footer Info
+      phone: "Téléphone",
+      email: "Email",
+      address: "Adresse",
+      followUs: "Suivez-nous"
     }
   },
   en: {
@@ -121,7 +131,17 @@ const resources = {
       aboutDesc: "Babembe community website in Kigali. Let's preserve our culture and stay connected.",
       quickLinks: "Quick Links",
       contactInfo: "Contact",
-      copyright: "Babembe Kigali Community. All rights reserved."
+      copyright: "Babembe Kigali Community. All rights reserved.",
+      
+      // Empty Pages
+      emptyMessage: "This page is still empty...",
+      comingSoon: "Content will be added soon.",
+      
+      // Footer Info
+      phone: "Phone",
+      email: "Email",
+      address: "Address",
+      followUs: "Follow Us"
     }
   },
   sw: {
@@ -181,7 +201,17 @@ const resources = {
       aboutDesc: "Tovuti ya jamii ya Babembe huko Kigali. Tuhifadhi utamaduni wetu na tuendelee kuungana.",
       quickLinks: "Viungo vya Haraka",
       contactInfo: "Mawasiliano",
-      copyright: "Jamii ya Babembe Kigali. Haki zote zimehifadhiwa."
+      copyright: "Jamii ya Babembe Kigali. Haki zote zimehifadhiwa.",
+      
+      // Empty Pages
+      emptyMessage: "Ukurasa huu bado haujajazwa...",
+      comingSoon: "Maudhui yataongezwa hivi karibuni.",
+      
+      // Footer Info
+      phone: "Simu",
+      email: "Barua pepe",
+      address: "Anwani",
+      followUs: "Tufuate"
     }
   },
   kb: {
@@ -241,7 +271,17 @@ const resources = {
       aboutDesc: "Omukono w'oluganda lw'Abembe ba Kigali. Twongereye obughi bwacu kandi tushighe tubali.",
       quickLinks: "Ebikoresho Ebihango",
       contactInfo: "Twandike",
-      copyright: "Oluganda lw'Abembe ba Kigali. Amazima yonse yahungirwe."
+      copyright: "Oluganda lw'Abembe ba Kigali. Amazima yonse yahungirwe.",
+      
+      // Empty Pages
+      emptyMessage: "Olu rupapuro lurukali ruza...",
+      comingSoon: "Ebintu bizaongezwa vuba.",
+      
+      // Footer Info
+      phone: "Esimi",
+      email: "Ibwandiko",
+      address: "Aho tubarizwe",
+      followUs: "Mutulondereze"
     }
   }
 };

@@ -2,7 +2,7 @@ services:
   - type: web
     name: babembe-community-site
     env: static
-    buildCommand: npm install --force && npm run build
+    buildCommand: npm install && npm run build
     staticPublishPath: ./build
     routes:
       - type: rewrite

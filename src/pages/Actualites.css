@@ -1,10 +1,10 @@
 .actualites-page {
   min-height: 100vh;
-  background-color: #f8f9fa;
+  background-color: #e9ecef;
 }
 
 .page-header {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
   color: white;
   padding: 80px 0 60px;
   text-align: center;
